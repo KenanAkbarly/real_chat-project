@@ -1,0 +1,210 @@
+.profile_right_cont {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.info_text_title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.profile_right_user_info_h3 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.info_text_p {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.title_following {
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.profile_right_user_friends_wrapper {
+  margin-top: 20px;
+}
+.profile_right_user_info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile_right_friends_friend_card_img {
+  width: 130px;
+  height: 130px;
+}
+.profile_right_friends_friend_pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.profile_right_friends_friend_card_username {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.profile_right_friends {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.profile_right_friends_friend_card {
+  cursor: pointer;
+}
+.edit_btn_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.edit_btn {
+  height: 60%;
+  padding: 0px 8px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 255, 0.7);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+h3 {
+  margin: 0 !important;
+}
+.edit_icon {
+  margin-left: 5px;
+}
+.edit_cover_phot {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.righbar_profile_wrapper {
+  display: flex;
+}
+.follow_btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #1566d7;
+  color: white;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.follow_btn:hover {
+  border-color: blue;
+  background-color: transparent;
+  color: blue;
+}
+.follow_btn_icon {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.unFollow_btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.unFollow_btn:hover {
+  border-color: green;
+  background-color: transparent;
+  color: green;
+}
+.unFollow_btn_icon {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.coverPhotoWrap {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 5px 10px;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.photoDelete {
+  font-size: 22px;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+.photo_icon_back {
+  background-color: white;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.button_edit_submit {
+  display: flex;
+  justify-content: center;
+}
+.btn_update {
+  width: 100%;
+  margin-top: 10px;
+  padding: 3px;
+  outline: none;
+  border-color: transparent;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn_update:hover {
+  color: green;
+  background-color: transparent;
+  border-color: green;
+}
+.input_update {
+  padding: 4px 10px;
+  outline: none;
+}
+.title_update {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.following_wrap {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .profile_right_cont {
+    width: 100%;
+    margin-left: 0;
+  }
+  .profile_right_user_info {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 648px) {
+  .profile_right_cont {
+    width: 100%;
+  }
+  .profile_right_user_info {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .profile_right_cont {
+    width: 100%;
+  }
+  .profile_right_user_info {
+    width: 100%;
+  }
+}

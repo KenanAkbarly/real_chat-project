@@ -1,0 +1,22 @@
+.home_contanier_mid {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home_contanier {
+  display: flex;
+  justify-content: space-between;
+  width: 98.5vw;
+  margin: 0;
+}
+@media screen and (max-width: 900px) {
+  .home_contanier_mid {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 648px) {
+  .home_contanier_mid {
+    width: 300px;
+  }
+}

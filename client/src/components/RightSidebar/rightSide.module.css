@@ -1,0 +1,163 @@
+.right_side_section {
+  width: 360px;
+  display: flex;
+}
+
+/* SPONSORED SECTION */
+.right_side_wrapper {
+  position: sticky !important;
+  top: 65px !important;
+  width: 100%;
+  padding-top: 30px;
+}
+.sponsored_pics_card_img {
+  width: 150px;
+}
+.sponsored_img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.sponsored_pics_card {
+  width: 95% !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3;
+}
+.sponsored_pics_card_text {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+.sponsored_pics_wrapper {
+  width: 100%;
+}
+.sponsored_pics_card:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.sponsored_section_title_h2 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+.sponsored_pics_card_text_link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 255, 0.7);
+}
+.sponsored_pics_card_text_link:hover {
+  color: blue;
+}
+@media screen and (max-width: 648px) {
+  .right_side_section {
+    display: none;
+  }
+  .home_contanier_mid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .right_side_section {
+    display: none;
+  }
+  .home_contanier_mid {
+    width: 100%;
+  }
+}
+/* FRIENDS SECTION */
+.right_side_friends {
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+.right_side_friends_prof_pic_div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.right_side_friends_prof_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.right_side_friends_title {
+  margin-bottom: 10px;
+}
+.right_side_friends_title_h3 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.right_side_friends_prof {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.right_side_friends_title_h3 {
+  padding-left: 5px;
+}
+.right_side_friends_prof:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.right_side_friends_username_div {
+  margin-left: 10px;
+}
+.right_side_friends_username {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile_img_username_wrap {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.right_side_profile_icon {
+  width: 45px;
+  height: 35px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: 0.3s;
+  border-left: 1px solid;
+  padding: 0px 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.right_side_profile_icon:hover {
+  background-color: white;
+}
+.right_side_profile_message_icon {
+  font-size: 25px;
+}
+
+.link_prof {
+  display: block;
+  width: 100%;
+}
+
+.nofriends_text {
+  font-size: 20px;
+  padding-left: 5px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: gray;
+}

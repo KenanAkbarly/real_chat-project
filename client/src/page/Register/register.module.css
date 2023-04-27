@@ -1,0 +1,243 @@
+.loginPage_contanier {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.login_page {
+  width: 100%;
+  height: 100vh !important;
+  background-color: hsl(216, 20%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../public/assets/backgrounrd_login.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.login_two_side {
+  font-family: Times, serif;
+  display: flex;
+  justify-content: space-around;
+  width: 980px;
+  margin-top: 20px;
+}
+.login_left_side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.register_page_h1 {
+  border-radius: 10px;
+  padding: 10px;
+  width: max-content;
+  background-color: rgba(0, 0, 255, 0.5);
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 2px;
+}
+.register_page_h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.login_right_side {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  width: 40%;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.password_div {
+  width: 100%;
+}
+.input_password {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 18px;
+  outline: 2px blue;
+  margin-bottom: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+}
+.input_password:focus {
+  outline-width: medium !important;
+  border: 1px solid blue;
+  box-shadow: cornflowerblue 0px 0px 3px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.login_right_side_form_top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.button_login {
+  padding: 14px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(22, 111, 229);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.forget_link {
+  text-decoration: none;
+  color: rgb(22, 111, 229);
+}
+.forget_link:hover {
+  text-decoration: underline;
+}
+.new_account_button {
+  width: 55%;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 15px 5px;
+  color: white;
+  background-color: rgb(54, 164, 32);
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  transition: 0.3s;
+}
+
+hr {
+  margin: 20px 0px;
+  color: rgba(128, 128, 128, 0.1);
+}
+.input_valid_div {
+  height: 40%;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.formik_error {
+  color: red;
+  font-weight: 500;
+}
+.register_btn_forrLog {
+  background-color: rgba(0, 0, 255, 0.8);
+  margin-bottom: 0;
+}
+.register_btn_forrLog:hover {
+  transform: scale(0.95);
+}
+.register_create_btn {
+  background-color: rgba(0, 128, 0, 0.8);
+  margin-bottom: 10px;
+}
+.register_create_btn:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 960px) {
+  .login_page {
+    height: 100vh;
+  }
+  .register_page_h1 {
+    font-size: 45px;
+    padding: 10px 70px;
+  }
+  .login_two_side {
+    width: 550px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .login_right_side {
+    width: 65% !important;
+  }
+
+  .login_left_side {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .input_password {
+    padding: 5px 7px;
+    margin: 0;
+    font-size: 16px;
+  }
+  .register_create_btn {
+    padding: 5px 7px;
+    margin-top: 5px;
+  }
+
+  .input_valid_div {
+    height: 45px;
+    margin-bottom: 12px;
+  }
+  .login_right_side {
+    width: 80%;
+  }
+  .register_page_h1 {
+    margin-bottom: 15px;
+  }
+  .register_page_h3 {
+    display: none;
+  }
+  .register_btn_forrLog {
+    padding: 6px 5px;
+  }
+}
+@media screen and (max-width: 648px) {
+  .login_page {
+    height: 100vh;
+    padding: 0 !important;
+  }
+  .register_page_h1 {
+    font-size: 25px;
+    padding: 10px 50px;
+  }
+  .formik_error {
+    font-size: 12px;
+  }
+  .login_page_h3 {
+    display: none;
+  }
+  .register_create_btn {
+    font-size: 16px;
+  }
+  .register_btn_forrLog {
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+  }
+  .login_two_side {
+    width: 340px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .login_left_side {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .login_right_side {
+    width: 100%;
+  }
+}
